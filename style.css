@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+#questionMenu {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay-square {
+    position: absolute;
+    background-image: url('images/cover.png');
+    background-size: cover; /* Ensures the cover image fits the square */
+    background-repeat: no-repeat;
+    /* You'll need to set the top, left, width, and height dynamically or based on pre-defined coordinates */
+    /* Example: */
+    /* top: 100px; */
+    /* left: 50px; */
+    /* width: 80px; */
+    /* height: 80px; */
+}
